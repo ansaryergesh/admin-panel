@@ -14,7 +14,7 @@ import { ExportCSV } from '../components/admin/ExportCSV';
 
 function mapStateToProps(state) {
   return {adminReducer:state.adminReducer}
-}
+} 
 
 const AdminSmsCenter = ({adminReducer}) => {
   const router = useRouter();
